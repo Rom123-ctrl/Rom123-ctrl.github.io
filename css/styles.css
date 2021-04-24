@@ -8,12 +8,14 @@ body{
 header{
   display:flex;
   padding:0 16px;
+  background:rgb(27, 27, 27);
 }
 
 .logo{
   margin:0 0 0 40px;
   font-size:22px;
   line-height:64px;
+  color:rgb(202, 202, 202);
 }
 
 .sp-menu{
@@ -34,6 +36,33 @@ main{
   padding:0 16px;
 }
 
+.container{
+  display:flex;
+  justify-content: center;
+}
+
+.box{
+  width: 300px;
+  height:300px;
+  margin: 10px;
+  text-align: center;
+  line-height:300px;
+  font-size:50px;
+}
+
+.box1{
+  background:orange;
+}
+
+.box2{
+  background:skyblue;
+}
+
+.box3{
+  background:tomato;
+}
+
+
 .overlay{
   position:fixed;
   top:0;
@@ -46,6 +75,10 @@ main{
   opacity:0;
   pointer-events: none;
   transition:opacity .6s;
+}
+
+.overlay a{
+  text-decoration: none;
 }
 
 .overlay.show{
@@ -78,6 +111,10 @@ main{
   transform:none;
 }
 
+.overlay.show a{
+  text-decoration: none;
+}
+
 .overlay.show li:nth-child(1){
   transition-delay:.1s;
 }
@@ -91,7 +128,10 @@ main{
 }
 
 footer{
+  padding:50px;
   text-align:center;
+  background:rgb(27, 27, 27);
+  color:rgb(202, 202, 202);
 }
 
 .pc-menu{
@@ -116,7 +156,7 @@ footer{
     font-size:20px;
     text-decoration:none;
     display:block;
-    width:90px;
+    width:120px;
     line-height: 64px;
     text-align: center;
   }
