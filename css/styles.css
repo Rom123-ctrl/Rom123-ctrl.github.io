@@ -9,6 +9,7 @@ header{
   display:flex;
   padding:0;
   height:100px;
+  width:auto;
   background:rgb(27, 27, 27);
 }
 
@@ -36,8 +37,10 @@ header{
 
 main{
   padding:0 16px;
-  margin:auto;
-  max-width: 1355px;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 1030px;
+  height:auto;
 }
 
 
@@ -49,12 +52,12 @@ main{
 
 .box{
   width: 300px;
-  height:180px;
+  height:280px;
   margin: 10px;
   text-align: center;
   line-height:100px;
   font-size:25px;
-  border:solid;
+  border:solid rgb(202, 202, 202);;
   background:white;
 }
 
@@ -70,17 +73,6 @@ main{
   
 }
 
-.box4{
-  
-}
-
-.box5{
- 
-}
-
-.box6{
-  
-}
 
 
 .overlay{
@@ -91,7 +83,6 @@ main{
   left:0;
   background: rgba(255,255,255,0.95);
   text-align:center;
-  padding:64px;
   opacity:0;
   pointer-events: none;
   transition:opacity .6s;
@@ -108,8 +99,8 @@ main{
 
 .overlay #close{
   position:absolute;
-  right:16px;
-  top: 32px;
+  right:100px;
+  top: 36px;
   font-size:42px;
 }
 
@@ -182,7 +173,7 @@ footer{
   }
 
   .pc-menu a{
-    padding:0 10px 0 0;
+    padding:8px 16px 0 0;
     font-size:20px;
     text-decoration:none;
     display:block;
