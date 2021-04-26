@@ -74,12 +74,31 @@ main{
   }
 
   #gnav li a{
+    margin:0 7px;
+    text-decoration: none;
+    justify-content: center;
+    color:rgb(202, 202, 202);
+  }
+}
+
+@media (max-width:320px){
+  
+  .box{
+    position:relative;
+    display:block;
+    margin:10px auto 16px;
+    font-size:1rem;
+    height:200px;
+    width:500px;
+  }
+
+  #gnav li a{
+    font-size: 14px;
     margin:0 5px;
     text-decoration: none;
     justify-content: center;
     color:rgb(202, 202, 202);
   }
-
 }
 
 footer{
