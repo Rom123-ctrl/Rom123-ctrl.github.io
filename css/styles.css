@@ -116,6 +116,12 @@ main{
   font-size: 64px;
 }
 
+.home h1:before{
+  vertical-align: -9px;
+  font-family: 'Material Icons';
+  content:"\e88a";
+}
+
 .about h1{
   text-align: center;
   font-size: 64px;
@@ -132,14 +138,32 @@ main{
   font-size: 64px;
 }
 
+.skills h1:before{
+  vertical-align: -9px;
+  font-family: 'Material Icons';
+  content:"\e0e0";
+}
+
 .works h1{
   text-align: center;
   font-size: 64px;
 }
 
+.works h1:before{
+  vertical-align: -9px;
+  font-family: 'Material Icons';
+  content:"\e0ee";
+}
+
 .contact h1{
   text-align: center;
   font-size: 64px;
+}
+
+.contact h1:before{
+  vertical-align: -9px;
+  font-family: 'Material Icons';
+  content:"\e158";
 }
 
 footer{
