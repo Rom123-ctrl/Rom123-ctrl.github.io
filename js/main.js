@@ -1,16 +1,18 @@
 'use strict'
 {
-  const open = document.getElementById('open');
-  const overlay = document.querySelector('.overlay');
-  const close = document.getElementById('close');
-
-  open.addEventListener('click',() => {
-    overlay.classList.add('show');
-    open.classList.add('hide');
-  });
-
-  close.addEventListener('click',() => {
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
+  $(function(){
+    $('a[href^="#"]').click(function(){
+      //スクロールのスピード
+      var speed = 500;
+      //リンク元を取得
+      var href= $(this).attr("href");
+      //リンク先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      //リンク先までの距離を取得
+      var position = target.offset().top;
+      //スムーススクロール
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
   });
 }
