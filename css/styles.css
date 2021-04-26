@@ -18,7 +18,7 @@ body{
   left:0;
   width:100%;
   height:55px;
-  background:rgb(27, 27, 27);
+  background:rgb(32, 32, 32);
 }
 
 #gnav ul{
@@ -111,9 +111,40 @@ main{
   }
 }
 
+.home h1{
+  text-align: center;
+  font-size: 64px;
+}
+
+.about h1{
+  text-align: center;
+  font-size: 64px;
+}
+
+.about h1:before {
+  vertical-align: -9px;
+  font-family: 'Material Icons';
+  content: "\e7fd";
+}
+
+.skills h1{
+  text-align: center;
+  font-size: 64px;
+}
+
+.works h1{
+  text-align: center;
+  font-size: 64px;
+}
+
+.contact h1{
+  text-align: center;
+  font-size: 64px;
+}
+
 footer{
   padding:50px;
   text-align:center;
-  background:rgb(27, 27, 27);
+  background:rgb(32, 32, 32);
   color:rgb(202, 202, 202);
 }
