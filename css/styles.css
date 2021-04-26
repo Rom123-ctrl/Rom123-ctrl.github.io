@@ -34,7 +34,7 @@ body{
 
 main{
   margin:100px auto auto auto;
-  max-width: 1020px;
+  max-width: 958px;
 }
 
 .container{
@@ -45,7 +45,7 @@ main{
 }
 
 .box{
-  width: 300px;
+  width: 280px;
   height:280px;
   margin: 10px;
   border-radius: 3px;
@@ -62,15 +62,15 @@ main{
 }
 
 
-@media (max-width:1010px) {
+@media (max-width:958px) {
 
   .box{
     position:relative;
     display:block;
-    margin:10px auto 16px;
+    margin:16px auto 16px;
     font-size:1rem;
     height:200px;
-    width:500px;
+    width:550px;
   }
 
   #gnav li a{
@@ -89,7 +89,7 @@ main{
     margin:10px auto 16px;
     font-size:1rem;
     height:200px;
-    width:500px;
+    width:550px;
   }
 
   #gnav li a{
