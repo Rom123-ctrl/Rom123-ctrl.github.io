@@ -2,7 +2,7 @@ body{
   margin:0;
   font-size:16px;
   background-color:rgb(230, 230, 230);
-  font-family:Verdana,sans-serif;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
 }
 
 #header{
@@ -74,11 +74,11 @@ body{
 
 main{
   margin:0 auto auto auto;
-  max-width: 958px;
+  max-width: 1310px;
 }
 
 .container{
-  margin-bottom:10px;
+  margin:10px;
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -86,12 +86,28 @@ main{
 }
 
 .feature{
-  width: 570px;
-  height:300px;
+  margin:10px;
+  width: 600px;
+  height:600px;
+  overflow: hidden;
   border-radius: 3px;
   text-align: center;
   background:white;
   border:solid rgb(202, 202, 202);
+}
+
+.feature img{
+  margin:5px 0 0 0;
+  border:solid rgb(202, 202, 202);
+  border-radius:50%;
+  height:150px;
+  width:150px;
+}
+
+.feature .text{
+  font-size:24px;
+  margin:10px;
+  text-align:left;
 }
 
 .info{
@@ -105,8 +121,8 @@ main{
 }
 
 .box{
-  width: 280px;
-  height:280px;
+  width: 300px;
+  height:300px;
   margin: 10px;
   border-radius: 3px;
   border:solid rgb(202, 202, 202);
@@ -169,6 +185,16 @@ footer{
 
 @media (max-width:958px) {
 
+  .feature{
+    width: auto;
+    height:800px;
+    overflow: hidden;
+    border-radius: 3px;
+    text-align: center;
+    background:white;
+    border:solid rgb(202, 202, 202);
+  }
+
   .box{
     position:relative;
     display:block;
@@ -228,6 +254,16 @@ footer{
 
 @media (max-width:320px){
   
+  .feature{
+    width: auto;
+    height:940px;
+    overflow: hidden;
+    border-radius: 3px;
+    text-align: center;
+    background:white;
+    border:solid rgb(202, 202, 202);
+  }
+
   .box{
     position:relative;
     display:block;
