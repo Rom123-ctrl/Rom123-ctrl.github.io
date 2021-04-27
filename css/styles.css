@@ -111,13 +111,59 @@ main{
 
 .info{
   width: 390px;
-  height:420px;
+  height:500px;
   margin:10px;
   border-radius: 3px;
   font-size:32px;
   text-align: center;
   background:white;
   border:solid rgb(202, 202, 202);
+}
+
+.info .level{
+  position:relative;
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  font-size: 20px;
+}
+.info .level:before{
+  color:#ddd;
+}
+
+.info .level:before,.info .level:after{
+  position:absolute;
+  top: 0;
+  left:0;
+  content:'■■■■■';
+}
+
+.info .level:after{
+  color:black;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.info .level-C:after{
+  width:40px;
+}
+.info .level-Java:after{
+  width:20px;
+}
+.info .level-HTML:after{
+  width:60px;
+}
+.info .level-JavaScript:after{
+  width:20px;
+}
+.info .level-CSS:after{
+  width:60px;
+}
+.info .level-HelpDesk:after{
+  width:80px;
+}
+.info .level-Kitting:after{
+  width:80px;
 }
 
 .info ul{
