@@ -243,10 +243,9 @@ footer{
 }
 
 @media (max-width:630px){
-  
+
   .feature{
     height:800px;
-    overflow: scroll;
   }
 
   .box{
@@ -304,6 +303,12 @@ footer{
     vertical-align: -7px;
     font-family: 'Material Icons';
     content:"\e0ee";
+  }
+}
+
+@media (max-width:320px){
+  .feature{
+    height:980px;
   }
 }
 
