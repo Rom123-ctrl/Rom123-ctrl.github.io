@@ -187,8 +187,7 @@ footer{
 
   .feature{
     width: 600px;
-    height:800px;
-    overflow: hidden;
+    overflow: scroll;
     border-radius: 3px;
     text-align: center;
     background:white;
@@ -252,16 +251,10 @@ footer{
 
 }
 
-@media (max-width:320px){
+@media (max-width:414px){
   
   .feature{
-    width: auto;
-    height:940px;
-    overflow: hidden;
-    border-radius: 3px;
-    text-align: center;
-    background:white;
-    border:solid rgb(202, 202, 202);
+    height:800px;
   }
 
   .box{
