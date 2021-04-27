@@ -8,7 +8,7 @@ body{
 #header{
   margin:0;
   width:100%;
-  height:0px;
+  height:1px;
 }
 
 #header #gnav{
@@ -29,17 +29,25 @@ body{
   list-style: none;
 }
 
-#gnav a{
-  display: block;
-  font-size:20px;
-  margin:16px 40px;
-  text-decoration: none;
-  color:rgb(202, 202, 202);
-  text-align: center;
+#gnav li{
+  width:100%;
 }
 
 #gnav li:hover{
+  cursor:pointer;
   background:black;
+}
+
+#gnav a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:56px;
+  font-size:20px;
+  text-decoration: none;
+  color:rgb(202, 202, 202);
+  text-align: center;
 }
 
 .gnav-item-about a:before{
@@ -96,16 +104,6 @@ main{
   border:solid rgb(202, 202, 202);
 }
 
-.mail{
-  width: 570px;
-  height:300px;
-  margin-bottom:20px;
-  border-radius: 3px;
-  text-align: center;
-  background:white;
-  border:solid rgb(202, 202, 202);
-}
-
 .box{
   width: 280px;
   height:280px;
@@ -124,7 +122,7 @@ main{
 }
 
 .about h1{
-  margin-top:60px;
+  margin-top:56px;
   margin-bottom:16px;
   text-align: center;
   font-size: 64px;
@@ -137,6 +135,7 @@ main{
 }
 
 .skills h1{
+  margin-top:60px;
   margin-bottom:16px;
   text-align: center;
   font-size: 64px;
@@ -149,6 +148,7 @@ main{
 }
 
 .works h1{
+  margin-top:60px;
   margin-bottom:16px;
   text-align: center;
   font-size: 64px;
@@ -177,10 +177,12 @@ footer{
     width:280px;
   }
 
-  #gnav li a{
-    margin:18px 7px;
-    text-decoration: none;
+  #gnav a{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
     color:rgb(202, 202, 202);
   }
 
@@ -236,10 +238,12 @@ footer{
   }
 
   #gnav li a{
-    font-size: 18px;
-    margin:18px 5px;
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
     color:rgb(202, 202, 202);
   }
 
