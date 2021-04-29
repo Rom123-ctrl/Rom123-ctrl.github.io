@@ -266,6 +266,10 @@ footer{
 }
 
 @media (max-width:320px){
+  .about h1,.skills h1,.works h1{
+    font-size:56px;
+  }
+
   .feature{
     height:1000px;
   }
