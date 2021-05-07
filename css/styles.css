@@ -253,6 +253,7 @@ table {
 }
 
 footer{
+  margin-top:50px;
   padding:50px;
   text-align:center;
   background:rgb(32, 32, 32);
@@ -266,10 +267,6 @@ footer{
 }
 
 @media (max-width:320px){
-  .about h1,.skills h1,.works h1{
-    font-size:56px;
-  }
-
   .feature{
     height:1000px;
   }
