@@ -82,6 +82,21 @@ main{
   justify-content: center;
   width:100%;
 }
+.container img{
+  border-radius: 10%;
+}
+
+.container a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.container p{
+  line-height:60px;
+  height:60px;
+  margin:0;
+}
 
 .feature{
   margin:10px;
@@ -153,16 +168,16 @@ main{
   width:60px;
 }
 .info .level-JavaScript:after{
-  width:20px;
+  width:40px;
 }
 .info .level-CSS:after{
   width:60px;
 }
 .info .level-HelpDesk:after{
-  width:80px;
+  width:60px;
 }
 .info .level-Kitting:after{
-  width:80px;
+  width:60px;
 }
 
 .info ul{
