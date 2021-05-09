@@ -1,3 +1,4 @@
+
 body{
   margin:0;
   font-size:16px;
@@ -5,20 +6,60 @@ body{
   font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
 }
 
-.container{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  width:100%;
-}
-
-.box{
-
-
-
-  cursor:pointer;
-}
-
 h1{
   text-align:center;
 }
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  margin:auto 150px;
+}
+
+.btn{
+  height:50px;
+  width:500px;
+  font-size: 20px;
+  font-weight:bold;
+  display:block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.aka1{background-image:url(../img/aka1.png); background-repeat: no-repeat; height:90px;width:67px;}
+.aka2{background-image:url(../img/aka2.png); background-repeat: no-repeat; height:90px;width:67px;}
+.aka3{background-image:url(../img/aka3.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man1{background-image:url(../img/man1.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man2{background-image:url(../img/man2.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man3{background-image:url(../img/man3.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man4{background-image:url(../img/man4.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man5{background-image:url(../img/man5.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man6{background-image:url(../img/man6.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man7{background-image:url(../img/man7.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man8{background-image:url(../img/man8.png); background-repeat: no-repeat; height:90px;width:67px;}
+.man9{background-image:url(../img/man9.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin1{background-image:url(../img/pin1.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin2{background-image:url(../img/pin2.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin3{background-image:url(../img/pin3.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin4{background-image:url(../img/pin4.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin5{background-image:url(../img/pin5.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin6{background-image:url(../img/pin6.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin7{background-image:url(../img/pin7.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin8{background-image:url(../img/pin8.png); background-repeat: no-repeat; height:90px;width:67px;}
+.pin9{background-image:url(../img/pin9.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou1{background-image:url(../img/sou1.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou2{background-image:url(../img/sou2.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou3{background-image:url(../img/sou3.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou4{background-image:url(../img/sou4.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou5{background-image:url(../img/sou5.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou6{background-image:url(../img/sou6.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou7{background-image:url(../img/sou7.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou8{background-image:url(../img/sou8.png); background-repeat: no-repeat; height:90px;width:67px;}
+.sou9{background-image:url(../img/sou9.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji1{background-image:url(../img/ji1.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji2{background-image:url(../img/ji2.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji3{background-image:url(../img/ji3.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji4{background-image:url(../img/ji4.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji5{background-image:url(../img/ji5.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji6{background-image:url(../img/ji6.png); background-repeat: no-repeat; height:90px;width:67px;}
+.ji7{background-image:url(../img/ji7.png); background-repeat: no-repeat; height:90px;width:67px;}
