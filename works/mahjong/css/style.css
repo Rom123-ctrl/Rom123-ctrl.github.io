@@ -6,6 +6,20 @@ body{
   font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
 }
 
+.backhome{
+  margin:20px;
+  cursor:pointer;
+  padding:0;
+}
+
+.backhome a{
+  display:block;
+  padding:10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+
 h1{
   text-align:center;
 }
