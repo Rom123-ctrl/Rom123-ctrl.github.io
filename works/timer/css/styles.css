@@ -4,14 +4,16 @@ body{
   background-color:rgb(230, 230, 230);
 }
 
-#backhome{
+.backhome{
+  width:140px;
   margin:20px;
   cursor:pointer;
   padding:0;
   display:flex;
+  border-style:solid;
 }
 
-#backhome a{
+.backhome a{
   font-size: 16px;
   padding:20px;
   text-decoration: none;
@@ -19,6 +21,10 @@ body{
   font-weight:bold;
   text-align:center;
   user-select: none;
+}
+
+.backhome a:hover{
+  background-color: grey;
 }
 
 h1{
@@ -72,6 +78,5 @@ h1{
 
 .desc{
   margin:48px 48px;
-  /* width:720px; */
   font-size:24px;
 }
