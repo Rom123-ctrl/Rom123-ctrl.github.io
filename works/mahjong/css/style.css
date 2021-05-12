@@ -6,13 +6,13 @@ body{
   font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
 }
 
-.backhome{
+#backhome{
   margin:40px;
   cursor:pointer;
   padding:0;
 }
 
-.backhome a{
+#backhome a{
   font-size: 20px;
   padding:10px;
   text-decoration: none;
