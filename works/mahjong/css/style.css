@@ -7,7 +7,7 @@ body{
 }
 
 .backhome{
-  width:140px;
+  width: 139px;
   margin:20px;
   cursor:pointer;
   padding:0;
@@ -26,7 +26,8 @@ body{
 }
 
 .backhome a:hover{
-  background-color: grey;
+  background:rgb(32, 32, 32);
+  color:rgb(202, 202, 202);
 }
 
 
