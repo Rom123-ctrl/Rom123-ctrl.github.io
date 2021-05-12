@@ -19,6 +19,8 @@ body{
   text-decoration: none;
   color:black;
   font-weight:bold;
+  margin:auto;
+  user-select: none;
 }
 
 h1{
@@ -39,6 +41,7 @@ h1{
   display:block;
   margin: 10px auto;
   cursor: pointer;
+  user-select: none;
 }
 
 .aka1{background-image:url(../img/aka1.png); background-repeat: no-repeat; height:90px;width:67px;}

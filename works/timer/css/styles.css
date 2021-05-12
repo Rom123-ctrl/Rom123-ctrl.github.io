@@ -17,6 +17,9 @@ body{
   text-decoration: none;
   color:black;
   font-weight:bold;
+  margin:auto;
+  text-align:center;
+  user-select: none;
 }
 
 h1{
