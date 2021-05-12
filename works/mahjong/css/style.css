@@ -10,11 +10,12 @@ body{
   margin:20px;
   cursor:pointer;
   padding:0;
+  display:flex;
 }
 
 #backhome a{
   font-size: 16px;
-  padding:5px;
+  padding:20px;
   text-decoration: none;
   color:black;
   font-weight:bold;
