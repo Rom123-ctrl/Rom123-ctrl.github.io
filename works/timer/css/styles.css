@@ -1,4 +1,5 @@
 body{
+  margin:0;
   font-family:"游ゴシック体", YuGothic, "YuGothic M", sans-serif;
   font-size: 14px;
   background-color:rgb(230, 230, 230);
@@ -80,4 +81,12 @@ h1{
 .desc{
   margin:48px 48px;
   font-size:24px;
+}
+
+footer{
+  margin-top:50px;
+  padding:50px;
+  text-align:center;
+  background:rgb(32, 32, 32);
+  color:rgb(202, 202, 202);
 }
