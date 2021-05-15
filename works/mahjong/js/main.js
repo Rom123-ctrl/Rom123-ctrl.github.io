@@ -73,13 +73,13 @@ $("#ShuffleBtn").click(function() {
 		let syama="";
     let tehai="";
 		$("#Yama").empty();
-		for(i=14;i<136;i++){
+		for(i=13;i<136;i++){
 			syama = "<span class=\"" + mainYama[yama[i]].String + "\"></span>";
 			$("#Yama").append(syama);
 		}
 
     $("#Tehai").empty();
-    for(i=0;i<14;i++){
+    for(i=0;i<13;i++){
       tehai = "<span class=\"" + mainYama[yama[i]].String + "\"></span>";
       $("#Tehai").append(tehai);
     }
