@@ -69,13 +69,20 @@ $("#ShuffleBtn").click(function() {
 	shuffleYama();
 
 	(function (){
-		let i;
-		let tehai="";
-		$("#Tehai").empty();
-		for(i=0;i<136;i++){
-			tehai = "<span class=\"" + mainYama[yama[i]].String + "\"></span>";
-				$("#Tehai").append(tehai);
+		let i,j;
+		let syama="";
+    let tehai="";
+		$("#Yama").empty();
+		for(i=14;i<136;i++){
+			syama = "<span class=\"" + mainYama[yama[i]].String + "\"></span>";
+			$("#Yama").append(syama);
 		}
+
+    $("#Tehai").empty();
+    for(i=0;i<14;i++){
+      tehai = "<span class=\"" + mainYama[yama[i]].String + "\"></span>";
+      $("#Tehai").append(tehai);
+    }
 	})();
 });
 
