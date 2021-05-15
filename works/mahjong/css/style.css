@@ -52,6 +52,14 @@ h1{
   user-select: none;
 }
 
+footer{
+  margin-top:50px;
+  padding:50px;
+  text-align:center;
+  background:rgb(32, 32, 32);
+  color:rgb(202, 202, 202);
+}
+
 .aka1{background-image:url(../img/aka1.png); background-repeat: no-repeat; height:90px;width:67px;}
 .aka2{background-image:url(../img/aka2.png); background-repeat: no-repeat; height:90px;width:67px;}
 .aka3{background-image:url(../img/aka3.png); background-repeat: no-repeat; height:90px;width:67px;}
@@ -89,3 +97,4 @@ h1{
 .ji5{background-image:url(../img/ji5.png); background-repeat: no-repeat; height:90px;width:67px;}
 .ji6{background-image:url(../img/ji6.png); background-repeat: no-repeat; height:90px;width:67px;}
 .ji7{background-image:url(../img/ji7.png); background-repeat: no-repeat; height:90px;width:67px;}
+
