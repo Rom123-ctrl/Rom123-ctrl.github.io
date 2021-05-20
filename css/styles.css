@@ -102,7 +102,7 @@ main{
 .feature{
   margin:10px;
   width: 600px;
-  height:600px;
+  height:500px;
   overflow: hidden;
   border-radius: 3px;
   text-align: center;
@@ -281,12 +281,12 @@ footer{
 
 @media (max-width:630px){
   .feature{
-    height:800px;
+    height:600px;
   }
 }
 
 @media (max-width:320px){
   .feature{
-    height:1000px;
+    height:700px;
   }
 }
